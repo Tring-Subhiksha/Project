@@ -1,0 +1,60 @@
+.form-signin{
+    /* background-color: antiquewhite; */
+    /* padding: 15px; */
+    /* gap:20px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.button-submit{
+
+margin-top:  30px;
+ /* background-color: bisque; */
+ display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    /* border: 2px solid none; */
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(98, 99, 99, 0.162);
+}
+.submit:hover{
+    cursor: pointer;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   /* background-color: aquamarine; */
+   height:30px;
+   gap:10px;
+   font-family:" Glegoo";
+   margin-top: 10px;
+   /* font-size: calc(var(--body-b2-14-semibold-left-size) + 2px); */
+   font-size: 17px;
+}
+.signup-underline{
+    text-decoration: underline; /* Underline the text */
+    color: rgba(0, 0, 255, 0.589); /* Set the text color to blue */
+    cursor: pointer; 
+    font-size: 17px;
+}

@@ -1,0 +1,11 @@
+.errorMsgStyle{
+    color: red;
+    display: flex;
+    font-size: 12px
+}
+.email-input{
+    border:2px solid black;
+    border: none;
+    width: 20vw;
+    /* background-color: black; */
+}
